@@ -1,6 +1,6 @@
 (() => {
   const targets = document.querySelectorAll(
-    '.why-heading, .why-intro, .why-mobile-arrow, .why-art, .why-chevrons, .feature-card'
+    '.why-heading, .why-intro, .why-mobile-arrow, .why-art, .feature-card'
   );
 
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
